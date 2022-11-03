@@ -23,6 +23,10 @@ background: transparent;
     overflow: hidden;
 }
 
+.imgheight{
+    height:13rem;
+}
+
 .portfolio_item h3{
     margin: 1.2rem 0 2rem;
 }

@@ -1,5 +1,5 @@
 import './about.css'
-import ME from "../../assets/me-about.jpg"
+import ME from "../../assets/me.png"
 import {FaAward} from "react-icons/fa"
 import {FiUsers} from "react-icons/fi"
 import {VscFolderLibrary} from "react-icons/vsc"
@@ -21,7 +21,7 @@ const About = () =>{
              <article className="about_card">
                 <FaAward className="awards_icon"/>
                 <h5>Experience</h5>
-                <small>1+ years Working</small>
+                <small>Beginer </small>
              </article>
 
              <article className="about_card">
@@ -38,9 +38,9 @@ const About = () =>{
              </div>
 
              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, laudantium?
-                 Similique deserunt sapiente voluptate eum dolorem iusto quia, ab eligendi. 
-                 Odio tempora sed fugiat dolores deserunt odit voluptatem ipsa recusandae.
+                Hi, I am Web Developer. I have completed my bachelor in Computer Science and Engineering.
+                working as a Web developer is one of the best experience of my life. Learning new technology makes me happy.
+                My skills as a Front end developer are HTML-5, CSS-3, React, Javascript. 
              </p>
 
              <a href="#contact" className="btn btn-primary">Let's Talk</a>

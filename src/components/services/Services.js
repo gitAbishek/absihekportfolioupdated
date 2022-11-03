@@ -16,7 +16,7 @@ const Services = () =>{
                 <li>
                 <BiCheck className="service_list-icon"/>
                 
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                <p>Competitive and tailored design</p>
                 </li>
                 
 
@@ -24,7 +24,7 @@ const Services = () =>{
                 <li>
                 <BiCheck className="service_list-icon"/>
                 
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                <p>Design to meet your customer service and marketing objectives</p>
                 </li>
                 
 
@@ -32,7 +32,7 @@ const Services = () =>{
                 <li>
                 <BiCheck className="service_list-icon"/>
                 
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                <p>Show you the live demo of the design depending how much completed</p>
                 </li>
                 
 
@@ -40,16 +40,10 @@ const Services = () =>{
                 <li>
                 <BiCheck className="service_list-icon"/>
                 
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                <p>Meaningful and relevant experience</p>
                 </li>
                 
 
-                
-                <li>
-                <BiCheck className="service_list-icon"/>
-                
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-                </li>
                 </ul>
 
             </article>
@@ -60,55 +54,82 @@ const Services = () =>{
                 </div>
 
                 <ul className="service_list">
+        
                 <li>
                 <BiCheck className="service_list-icon"/>
                 
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                <p>Customized Web Development</p>
                 </li>
 
                 <li>
                 <BiCheck className="service_list-icon"/>
                 
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                <p>Static Web Services</p>
                 </li>
 
                 <li>
                 <BiCheck className="service_list-icon"/>
                 
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                <p>eCommerce Development</p>
                 </li>
 
                 <li>
                 <BiCheck className="service_list-icon"/>
                 
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                <p>Website Maintenance</p>
                 </li>
 
                 <li>
                 <BiCheck className="service_list-icon"/>
                 
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                <p>Dynamic Web Services</p>
                 </li>
 
                 <li>
                 <BiCheck className="service_list-icon"/>
                 
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                <p>FullStack Development</p>
                 </li>
+
+                <li>
+                <BiCheck className="service_list-icon"/>
+                
+                <p>Website Maintenance</p>
+                </li>
+
+                <li>
+                <BiCheck className="service_list-icon"/>
+                
+                <p>Dynamic Web Services</p>
+                </li>
+
+                <li>
+                <BiCheck className="service_list-icon"/>
+                
+                <p>FullStack Development</p>
+                </li>
+
                 </ul>
 
             </article>
 
             <article className="service">
                 <div className="service_header">
-                    <h3>Content Creation</h3>
+                    <h3>UI/UX Design</h3>
                 </div>
-
                 <ul className="service_list">
                 <li>
                 <BiCheck className="service_list-icon"/>
                 
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                <p>Competitive and tailored design</p>
+                </li>
+                
+
+               
+                <li>
+                <BiCheck className="service_list-icon"/>
+                
+                <p>Design to meet your customer service and marketing objectives</p>
                 </li>
                 
 
@@ -116,7 +137,7 @@ const Services = () =>{
                 <li>
                 <BiCheck className="service_list-icon"/>
                 
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                <p>Show you the live demo of the design depending how much completed</p>
                 </li>
                 
 
@@ -124,24 +145,10 @@ const Services = () =>{
                 <li>
                 <BiCheck className="service_list-icon"/>
                 
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                <p>Meaningful and relevant experience</p>
                 </li>
                 
 
-                
-                <li>
-                <BiCheck className="service_list-icon"/>
-                
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-                </li>
-                
-
-                
-                <li>
-                <BiCheck className="service_list-icon"/>
-                
-                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-                </li>
                 </ul>
 
             </article>

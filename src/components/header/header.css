@@ -42,10 +42,11 @@ header{
 
 /* =====================ME IMAGE=================== */
 
-.me{
-background: linear-gradient(var(--color-primary),transparent);
+
+
+.img1{
 width:22rem;
-height:20rem;
+height: 30rem;
 position: absolute;
 left : calc(50% - 11rem);
 margin-top: 4rem;

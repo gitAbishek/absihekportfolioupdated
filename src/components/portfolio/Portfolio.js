@@ -1,53 +1,53 @@
 import './portfolio.css'
-import IMG1 from "../../assets/portfolio1.jpg"
-import IMG2 from "../../assets/portfolio2.jpg"
-import IMG3 from "../../assets/portfolio3.jpg"
-import IMG4 from "../../assets/portfolio4.jpg"
-import IMG5 from "../../assets/portfolio5.png"
-import IMG6 from "../../assets/portfolio6.jpg"
+import IMG1 from "../../assets/weatherApi.png"
+import IMG2 from "../../assets/foodrecipee.png"
+import IMG3 from "../../assets/todolist.png"
+import IMG4 from "../../assets/githubapi.png"
+import IMG5 from "../../assets/AbishekPortfolio.png"
+import IMG6 from "../../assets/oldwebsite.png"
 
 const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'This is a portfolio item title',
+        title: 'Weather API website',
         github: "https://www.github.com",
-        demo: "https://dribbble.com/shots/popular/animation#"
+        demo: "https://webdeveloperabishek.netlify.app#"
     },
     {
         id: 2,
         image: IMG2,
-        title: 'This is a portfolio item title',
-        github: "https://www.github.com",
-        demo: "https://dribbble.com/shots/popular/animation#"
+        title: 'FoodRecipe App',
+        github: "https://github.com/gitAbishek/FoodRecipeApp",
+        demo: "https://foodrecipeapishah.netlify.app#"
     },
     {
         id: 3,
         image: IMG3,
-        title: 'This is a portfolio item title',
-        github: "https://www.github.com",
-        demo: "https://dribbble.com/shots/popular/animation#"
+        title: 'ToDoList',
+        github: "https://github.com/gitAbishek/ToDoListNew",
+        demo: "https://shahtodolist.netlify.app#"
     },
     {
         id: 4,
         image: IMG4,
-        title: 'This is a portfolio item title',
-        github: "https://www.github.com",
-        demo: "https://dribbble.com/shots/popular/animation#"
+        title: 'GitHubApi',
+        github: "https://github.com/gitAbishek/GitHubApi",
+        demo: "https://githubapishah.netlify.app#"
     },
     {
         id: 5,
         image: IMG5,
-        title: 'This is a portfolio item title',
-        github: "https://www.github.com",
-        demo: "https://dribbble.com/shots/popular/animation#"
+        title: 'My Portfolio',
+        github: "https://github.com/gitAbishek/MyNewPortfolio",
+        demo: "https://shahabishekportfolio.netlify.app#"
     },
     {
         id: 6,
         image: IMG6,
-        title: 'This is a portfolio item title',
-        github: "https://www.github.com",
-        demo: "https://dribbble.com/shots/popular/animation#"
+        title: 'My old Website',
+        github: "https://github.com/gitAbishek/My-Website",
+        demo: "https://webdeveloperabishek.netlify.app#"
     }
 ]
 const Portfolio = () => {
@@ -62,9 +62,9 @@ const Portfolio = () => {
                         return (
                             <article className="portfolio_item" key={curdata.id}>
                                 <div className="portfolio_item-image">
-                                    <img src={curdata.image} alt={curdata.title} />
+                                    <img src={curdata.image} alt={curdata.title} className='imgheight' />
                                 </div>
-                                <h3>T{curdata.title}</h3>
+                                <h3>{curdata.title}</h3>
                                 <div className="portfolio_item-cta">
                                     <a href={curdata.github} className='btn' target='_blank'>Github</a>
                                     <a href={curdata.demo} className='btn btn-primary' target='_blank'>Live Demo</a>

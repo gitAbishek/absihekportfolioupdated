@@ -14,20 +14,19 @@ const Footer = () =>{
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#service">Service</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
             </ul>
 
             <div className="footer_socials">
 
-                <a href="https://www.facebook.com">
+                <a href="https://www.facebook.com/rock.ey.549/#"target="_blank" >
                 <FaFacebookF className="footer_socials-icon"/>
                 </a>
 
-                <a href="https://www.instagram.com">
+                <a href="https://www.instagram.com/abishekshah7/#"target="_blank">
                 <FiInstagram className="footer_socials-icon"/>
                 </a>
 
-                <a href="https://www.twiter.com">
+                <a href="https://twitter.com/iamavi7#"target="_blank">
                 <IoLogoTwitter className="footer_socials-icon"/>
                 </a>
 
