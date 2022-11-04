@@ -12,7 +12,7 @@ const data = [
         image: IMG1,
         title: 'Weather API website',
         github: "https://www.github.com",
-        demo: "https://webdeveloperabishek.netlify.app#"
+        demo: "https://shahweatherapi.netlify.app#"
     },
     {
         id: 2,
