@@ -5,6 +5,7 @@ import IMG3 from "../../assets/todolist.png"
 import IMG4 from "../../assets/githubapi.png"
 import IMG5 from "../../assets/AbishekPortfolio.png"
 import IMG6 from "../../assets/oldwebsite.png"
+import IMG7 from "../../assets/keepclone.png"
 
 const data = [
     {
@@ -48,6 +49,13 @@ const data = [
         title: 'My old Website',
         github: "https://github.com/gitAbishek/My-Website",
         demo: "https://webdeveloperabishek.netlify.app#"
+    },
+    {
+        id: 7,
+        image: IMG7,
+        title: 'Google Keep Clone',
+        github: "https://github.com/gitAbishek/Google-Keep-Clone",
+        demo: "https://keepcloneabishek.netlify.app#"
     }
 ]
 const Portfolio = () => {
