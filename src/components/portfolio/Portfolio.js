@@ -41,7 +41,7 @@ const data = [
         image: IMG5,
         title: 'My Portfolio',
         github: "https://github.com/gitAbishek/MyNewPortfolio",
-        demo: "https://shahabishekportfolio.netlify.app#"
+        demo: "https://abishekshahnewportfolio.netlify.app#"
     },
     {
         id: 6,
