@@ -6,57 +6,66 @@ import IMG4 from "../../assets/githubapi.png"
 import IMG5 from "../../assets/AbishekPortfolio.png"
 import IMG6 from "../../assets/oldwebsite.png"
 import IMG7 from "../../assets/keepclone.png"
+import IMG8 from "../../assets/blog.png"
 
 const data = [
     {
         id: 1,
+        image: IMG7,
+        title: 'Google Keep Clone',
+        github: "https://github.com/gitAbishek/Google-Keep-Clone",
+        demo: "https://keepcloneabishek.netlify.app#"
+    },
+    {
+        id: 2,
+        image: IMG8,
+        title: 'Blog React Hooks',
+        github: "https://github.com/gitAbishek/Blog-Api",
+        demo: "https://reactbloghooks.netlify.app#"
+    },
+    {
+        id: 3,
         image: IMG1,
         title: 'Weather API website',
         github: "https://www.github.com",
         demo: "https://shahweatherapi.netlify.app#"
     },
     {
-        id: 2,
+        id: 4,
         image: IMG2,
         title: 'FoodRecipe App',
         github: "https://github.com/gitAbishek/FoodRecipeApp",
         demo: "https://foodrecipeapishah.netlify.app#"
     },
     {
-        id: 3,
+        id: 5,
         image: IMG3,
         title: 'ToDoList',
         github: "https://github.com/gitAbishek/ToDoListNew",
         demo: "https://shahtodolist.netlify.app#"
     },
     {
-        id: 4,
+        id: 6,
         image: IMG4,
         title: 'GitHubApi',
         github: "https://github.com/gitAbishek/GitHubApi",
         demo: "https://githubapishah.netlify.app#"
     },
     {
-        id: 5,
+        id: 7,
         image: IMG5,
         title: 'My Portfolio',
         github: "https://github.com/gitAbishek/MyNewPortfolio",
         demo: "https://abishekshahnewportfolio.netlify.app#"
     },
     {
-        id: 6,
+        id: 8,
         image: IMG6,
         title: 'My old Website',
         github: "https://github.com/gitAbishek/My-Website",
         demo: "https://webdeveloperabishek.netlify.app#"
-    },
-    {
-        id: 7,
-        image: IMG7,
-        title: 'Google Keep Clone',
-        github: "https://github.com/gitAbishek/Google-Keep-Clone",
-        demo: "https://keepcloneabishek.netlify.app#"
     }
+    
 ]
 const Portfolio = () => {
     return (
